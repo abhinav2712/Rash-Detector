@@ -14,6 +14,10 @@ Make sure to have MATLAB installed in your system.
 - To detect the pixels within the specified color range, the code applies a logical AND operator to create a binary mask of the pixels within the color range. - - The logical AND operator is applied to each color channel of the image separately using the "&" operator, and then the results are combined using the "&&" operator.
 - Finally, the code displays the original image and the color detection result using the imshow() function and MATLAB's subplot() function.
 
+## Result 
+
+<img width="407" alt="Screenshot 2023-04-27 185229" src="https://user-images.githubusercontent.com/68495520/234936118-52f9a4da-62eb-452f-b2c5-502fff4eb9e8.png">
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
